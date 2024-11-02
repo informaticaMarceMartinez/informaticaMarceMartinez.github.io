@@ -147,12 +147,14 @@ button:hover {
     .main-content {
         width: 100%; /* El contenido principal ocupa 100% en móviles */
         padding: 10px; /* Espaciado interno ajustado */
+        font-size: 0.75rem; /* Tamaño de fuente del botón */
     }
 
      .info-section {
           margin: 7px; /* Espaciado externo */
           padding: 10px; /* Espaciado interno */
           border-radius: 6px; /* Bordes redondeados */
+          font-size: 0.75rem; /* Tamaño de fuente del botón */
      }
 
      ul {
