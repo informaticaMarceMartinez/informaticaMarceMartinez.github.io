@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CV Profesional - Marcelo Martinez</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <img src="miFoto.jpeg" alt="Foto de Perfil" class="profile-pic">
+            
+            <h2><strong>Marcelo D. Martínez</strong></h2><br>
+            
+            <h2>Datos de Contacto</h2>
+            <p><a class="wp" href="https://wa.me/34638044140" target="_blank"><strong>WhatsApp: <h3>+34 638 044 140</h3></strong></a></p>
+            <br><p><strong>e-Mail: </strong></p>
+            <h5><a href="mailto:informatica.mmartinez@gmail.com">informatica.mmartinez@gmail.com</a></h5><br>
+            
+            <br><h2>Mis Redes</h2>
+            <p><a href="https://www.linkedin.com/in/analistamarcelodensimartinez/" target="_blank">LinkedIn</a></p><br>
+            <p><a href="https://github.com/informaticaMarceMartinez" target="_blank">GitHub</a></p><br>
+            
+          <button onclick="showSection('estudios')"><strong>Mi Formación y Experiencia Laboral</strong></button>
+            
+        </div>
+        <div class="main-content">
+            
+            <section style="text-align: center; padding: 20px; background-color: rgba(211, 211, 211, 0.8); color: #333; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);">
+    <h1 style="font-size: 2.2em; margin-bottom: 10px; font-family: 'Arial', sans-serif;">Curriculum Vitae Profesional</h1>
+
+    <p style="font-size: 1.4em; line-height: 1.6; margin-bottom: 20px; font-family: 'Georgia', serif;"><strong>¡Bienvenidos! Este sitio web presenta mis habilidades y experiencias en el campo de la informática y las tecnologías de la información.</strong></p>
+
+    <p style="font-size: 1.4em; line-height: 1.6; margin-bottom: 20px; font-family: 'Georgia', serif;">Soy un profesional, entusiasta de la tecnología, con varios años de experiencia en programación y despliegue de aplicaciones web y soluciones de software adaptadas a diversas necesidades. Además de mi pasión por el código, tengo un amplio recorrido en hardware y administración de sistemas. Mi enfoque es siempre ofrecer soluciones completas y seguras, manejando bases de datos relacionales, sistemas de almacenamiento avanzados y prácticas de ciberseguridad para proteger la información.</p>
+
+    <h2 style="font-size: 1.4em; margin-top: 20px; font-family: 'Arial', sans-serif;"><strong>Mi perfil horizontal, destaca por ser altamente versátil y multidisciplinario.</strong></h2>
+
+    <h2 style="font-size: 1.5em; margin-top: 20px; font-family: 'Arial', sans-serif;">¡Explora cada una de mis competencias y descubre como puedo contribuir a vuestro equipo de trabajo!</h2>
+     </section>
+
+            
+            <div class="button-container">
+                <button onclick="showSection('programming')"><strong>Programación y Bases de Datos</strong></button>
+                <button onclick="showSection('hardware')"><strong>Hardware IT y Virtualización</strong></button>
+                <button onclick="showSection('itadmin')"><strong>Sistemas, Redes y Seguridad</strong></button>
+            </div>
+            <div id="info" class="info-section">
+                <!-- Aquí se mostrará la información basada en el botón seleccionado -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+

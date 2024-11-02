@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box; /* Para incluir padding y borders en el tamaño total */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* Tipografía base */
+    background-color: #f4f4f4; /* Color de fondo suave */
+    color: #000; /* Color de texto negro */
+        
+    background-image: url("fondo.jpeg"); /* Ruta de la imagen */
+    background-size: cover; /* Ajusta la imagen para que cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+.container {
+    display: flex;
+    flex-direction: row; /* Mantiene el diseño en fila en pantallas grandes */
+    max-width: 90%; /* Max width para un diseño más profesional */
+    margin: 35px auto; /* Centrar el contenedor en la pantalla */
+}
+
+.sidebar {
+    /*background-color: #a8e6cf; /* Color de fondo del sidebar (verde pastel) */
+    background-color: rgba(168, 230, 207, 0.8);
+    
+    width: 25%; /* Aumentar el ancho del sidebar */
+    padding: 15px; /* Espaciado interno */
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.9); /* Sombra más pronunciada */
+    border-radius: 15px; /* Bordes redondeados para un mejor efecto visual */
+    margin-right: 45px;
+    margin-bottom: 40px;
+    margin-top: 25px;
+    text-align: center; /* Centra todo el texto dentro del sidebar */
+    /*border: 3px solid white; /* Borde para la sección de información */
+    border: 3px solid rgba(255, 255, 255, 0.6); /* Borde blanco con 60% de transparencia */
+
+}
+
+.profile-pic {
+    width: 80%; /* La imagen de perfil ocupa todo el ancho del sidebar */
+    border-radius: 5%; /* Hace la imagen redonda */
+    margin: 20px 10%; /* Espaciado inferior */
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.9); /* Sombra más pronunciada */
+    border: 3px solid rgba(255, 255, 255, 0.6); /* Borde blanco con 60% de transparencia */
+}
+
+.main-content {
+    /* background-color: #ffffff; /* Color de fondo del contenido principal */
+    background-color: rgba(255, 255, 255, 0.6); /* Blanco con 60% de opacidad */
+    
+    width: 60%; /* Aumentar el ancho del contenido principal */
+    padding: 20px; /* Espaciado interno */
+        /*padding-left: 40px; /* Espaciado interno */
+    box-shadow: 0 4px 16px rgba(168, 230, 207, 0.9); /* Sombra más pronunciada */
+    border-radius: 15px; /* Bordes redondeados para un mejor efecto visual */
+    /*margin-left: 10px;*/
+       /* border: 3px solid rgba(0, 0, 0, 0.8); /* Borde blanco con 60% de transparencia */
+            border: 3px solid rgba(255, 255, 255, 0.6); /* Borde blanco con 60% de transparencia */
+}
+
+h1, h2, h3 {
+    margin-bottom: 15px; /* Espaciado inferior para títulos */
+    /* color: #e67e22; /* Color de texto para títulos (naranja) */
+    color: black; /* Color de texto para títulos (naranja) */
+    text-shadow: 2px 2px 4px rgba(22, 22, 22, 0.8); /* Sombra gris para títulos */
+}
+
+.wp {
+     text-decoration: none; /* Elimina el subrayado */
+    color: inherit; /* Mantiene el color del texto sin cambiarlo */
+}
+
+ul {
+     padding-left: 45px; /* Espaciado interno */
+}
+
+.button-container {
+     width: 70%;
+     margin: 10px 4%; /* Espaciado superior e inferior para botones */
+     padding: 10px;
+     
+    display: flex;
+    justify-content: center; /* Centra horizontalmente los botones */
+    align-items: center; /* Centra verticalmente si el contenedor tiene una altura definida */
+    gap: 10px; /* Espaciado entre los botones */
+    margin: 20px auto; /* Centra el contenedor mismo si es un elemento bloque */
+    /*width: 100%; /* Asegura que ocupe todo el ancho disponible */
+    
+}
+
+button {
+    background-color: #e67e00; /* Color de fondo del botón (naranja) */
+    color: white; /* Color de texto del botón */
+    border: none; /* Sin borde */
+    padding: 10px 15px; /* Espaciado interno del botón */
+    font-size: 0.85rem; /* Tamaño de fuente del botón */
+    /*cursor: pointer; /* Cursor de puntero */
+    border-radius: 7px; /* Bordes redondeados en los botones */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* Sombra más profunda para botones */
+    transition: all 0.3s; /* Transición suave para efectos */
+    margin: 2% 1%; /* Espacio entre botones */
+}
+
+/* .button-active {
+    background-color: #27ae60; /* Color de fondo cuando está activo */
+   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra más ligera para el botón activo */
+   /* transform: translateY(0); /* Asegura que el botón no se eleve */
+/* } */
+
+button:hover {
+    transform: translateY(-3px); /* Levanta el botón al pasar el mouse */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Sombra más profunda al pasar el mouse */
+    color: black; /* Color del texto cuando está activo */
+}
+
+.info-section {
+     margin: 10px; /* Espaciado externo */
+     padding: 20px; /* Espaciado interno */
+     padding-left: 40px; /* Espaciado interno */
+     border: 2px solid #e67e22; /* Borde para la sección de información */
+     border-radius: 8px; /* Bordes redondeados */
+     display: none; /* Oculta inicialmente */
+
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8), 0 2px 5px rgba(128, 128, 128, 0.5); /* Sombra gris y negra */ 
+     background-color: rgba(211, 211, 211, 0.8); /* Blanco con 80% de opacidad */   
+}
+
+
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Cambia a vertical en móviles */
+        width: 100%; /* Asegura que ocupe todo el ancho en móviles */
+        /* border: 2px solid #e67e22; /* Borde para la sección de información */
+        text-align: center; /* Centra todo el texto dentro del sidebar */
+    }
+
+    .sidebar {
+        width: 100%; /* El sidebar ocupa 100% en móviles */
+        padding: 10px; /* Espaciado interno ajustado */
+    }
+
+    .main-content {
+        width: 100%; /* El contenido principal ocupa 100% en móviles */
+        padding: 10px; /* Espaciado interno ajustado */
+    }
+
+     ul {
+          padding-left: 0px; /* Espaciado interno */
+     }
+
+    button {
+        font-size: 0.9rem; /* Ajuste de tamaño de fuente en botones en móviles */
+        padding: 10px 20px; /* Ajuste de espaciado interno en botones */
+    }
+    
+     .profile-pic {
+          width: 50%; /* La imagen de perfil ocupa todo el ancho del sidebar */
+          margin: 15px 25%; /* Espaciado inferior */
+     }
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        text-align: center; /* Centra todo el texto dentro del sidebar */
+    }
+    .sidebar {
+        width: 35%; /* Aumentar el ancho del sidebar en tablets */
+        padding: 5px;
+    }
+
+    .main-content {
+        width: 65%; /* Aumentar el ancho del contenido principal en tablets */
+        padding: 10px;
+    }
+
+     ul {
+          padding-left: 0px; /* Espaciado interno */
+     }
+     
+    h1 {
+        font-size: 1.6rem; /* Ajuste de tamaño de fuente en tablets */
+    }
+
+    h2 {
+        font-size: 1.3rem; /* Ajuste de tamaño de fuente en tablets */
+    }
+    
+    h3 {
+        font-size: 1rem; /* Ajuste de tamaño de fuente en tablets */
+    }
+    
+    .profile-pic {
+          width: 90%; /* La imagen de perfil ocupa todo el ancho del sidebar */
+          margin: 10px 0%; /* Espaciado inferior */
+     }
+     
+}
+
