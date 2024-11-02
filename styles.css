@@ -149,6 +149,12 @@ button:hover {
         padding: 10px; /* Espaciado interno ajustado */
     }
 
+     .info-section {
+          margin: 7px; /* Espaciado externo */
+          padding: 10px; /* Espaciado interno */
+          border-radius: 6px; /* Bordes redondeados */
+     }
+
      ul {
           padding-left: 0px; /* Espaciado interno */
      }

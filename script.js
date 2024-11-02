@@ -26,7 +26,10 @@ function showSection(profileType) {
     <p>En cuanto al análisis y diseño de software, soy metódico en la planificación de proyectos, aplicando técnicas como <strong>Scrum</strong> y <strong>XP</strong> y utilizando <strong>UML</strong> para el diseño estructural de sistemas.</p><br>
 </section>
 
-
+<section style="text-align: center; margin-top: 15px;">
+                   <a href="/CV_MarceloMartinez_638044140.pdf" download="CV_MarceloMartinez" style="text-decoration: none; color: black;">
+                  <button style="padding: 15px 20px; background-color: #4CAF50; color: black; font-size: 1.3em; border: none; border-radius: 5px; cursor: pointer;"><strong>Descarga Mi CV en PDF</strong></button></a>
+          </section>
 
         `;
     } else if (profileType === 'hardware') {
@@ -48,8 +51,13 @@ function showSection(profileType) {
     <h3>Seguridad en el Almacenamiento</h3>
     <p>La seguridad en el almacenamiento es otra área que manejo con experiencia. He implementado soluciones de cifrado y gestionado certificados <strong>SSL</strong> y <strong>PGP</strong>, asegurando la protección de datos y cumpliendo con normativas de seguridad.</p><br>
 </section>
-
+<section style="text-align: center; margin-top: 15px;">
+                   <a href="/CV_MarceloMartinez_638044140.pdf" download="CV_MarceloMartinez" style="text-decoration: none; color: black;">
+                  <button style="padding: 15px 20px; background-color: #4CAF50; color: black; font-size: 1.3em; border: none; border-radius: 5px; cursor: pointer;"><strong>Descarga Mi CV en PDF</strong></button></a>
+          </section>
+          
         `;
+        
     } else if (profileType === 'itadmin') {
         content = `
 <section>
@@ -80,7 +88,10 @@ function showSection(profileType) {
     <p>Finalmente, mantengo documentación clara y detallada de todas las configuraciones y procedimientos, lo que asegura continuidad operativa y facilita la administración de sistemas de manera ordenada y profesional. Esta documentación incluye diagramas de red, guías de configuración, y manuales de procedimientos, los cuales son esenciales para la capacitación de nuevos miembros del equipo y para garantizar que las mejores prácticas sean seguidas consistentemente. </p><br>
 </section>
 
-
+<section style="text-align: center; margin-top: 15px;">
+                   <a href="/CV_MarceloMartinez_638044140.pdf" download="CV_MarceloMartinez" style="text-decoration: none; color: black;">
+                  <button style="padding: 15px 20px; background-color: #4CAF50; color: black; font-size: 1.3em; border: none; border-radius: 5px; cursor: pointer;"><strong>Descarga Mi CV en PDF</strong></button></a>
+          </section>
 
         `;
     } else if (profileType === 'estudios') {
@@ -153,6 +164,11 @@ function showSection(profileType) {
     <li>QA de aplicaciones y sistemas CRM.</li>
   </ul><br>
 </section>
+<section style="text-align: center; margin-top: 15px;">
+                   <a href="/CV_MarceloMartinez_638044140.pdf" download="CV_MarceloMartinez" style="text-decoration: none; color: black;">
+                  <button style="padding: 15px 20px; background-color: #4CAF50; color: black; font-size: 1.3em; border: none; border-radius: 5px; cursor: pointer;"><strong>Descarga Mi CV en PDF</strong></button></a>
+          </section>
+          
         `;
     }
 
