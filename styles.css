@@ -154,7 +154,7 @@ button:hover {
           margin: 7px; /* Espaciado externo */
           padding: 10px; /* Espaciado interno */
           border-radius: 6px; /* Bordes redondeados */
-          font-size: 0.75rem; /* Tamaño de fuente del botón */
+          font-size: 0.85rem; /* Tamaño de fuente  */
      }
 
      ul {
