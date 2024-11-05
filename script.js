@@ -30,6 +30,16 @@ function showSection(profileType) {
                    <a href="/CV_MarceloMartinez_638044140.pdf" download="CV_MarceloMartinez" style="text-decoration: none; color: black;">
                   <button style="padding: 15px 20px; background-color: #4CAF50; color: black; font-size: 1.3em; border: none; border-radius: 5px; cursor: pointer;"><strong>Descarga Mi CV en PDF</strong></button></a>
           </section>
+          
+          <section>
+               <div style="text-align: right;">
+                    <a href="https://informaticaMarceMartinez.github.io" style="text-decoration: none; color: black;">
+                    <button style="padding: 10px 15px; color: black; font-size: 0.9em; border: none; border-radius: 5px; cursor: pointer; display: inline-block;">
+                         <strong>Volver ^</strong>
+                    </button>
+                    </a>
+               </div>
+          </section>
 
         `;
     } else if (profileType === 'hardware') {
@@ -54,6 +64,16 @@ function showSection(profileType) {
 <section style="text-align: center; margin-top: 15px;">
                    <a href="/CV_MarceloMartinez_638044140.pdf" download="CV_MarceloMartinez" style="text-decoration: none; color: black;">
                   <button style="padding: 15px 20px; background-color: #4CAF50; color: black; font-size: 1.3em; border: none; border-radius: 5px; cursor: pointer;"><strong>Descarga Mi CV en PDF</strong></button></a>
+          </section>
+          
+          <section>
+               <div style="text-align: right;">
+                    <a href="https://informaticaMarceMartinez.github.io" style="text-decoration: none; color: black;">
+                    <button style="padding: 10px 15px; color: black; font-size: 0.9em; border: none; border-radius: 5px; cursor: pointer; display: inline-block;">
+                         <strong>Volver ^</strong>
+                    </button>
+                    </a>
+               </div>
           </section>
           
         `;
@@ -90,84 +110,24 @@ function showSection(profileType) {
 
 <section style="text-align: center; margin-top: 15px;">
                    <a href="/CV_MarceloMartinez_638044140.pdf" download="CV_MarceloMartinez" style="text-decoration: none; color: black;">
-                  <button style="padding: 15px 20px; background-color: #4CAF50; color: black; font-size: 1.3em; border: none; border-radius: 5px; cursor: pointer;"><strong>Descarga Mi CV en PDF</strong></button></a>
+                  <button style="padding: 15px 20px; background-color: #4CAF50; color: black; font-size: 1.3em; border: none; border-radius: 5px; cursor: pointer;"><strong>Descarga Mi CV en PDF</strong></button></a><br>
           </section>
+          
+          <section>
+               <div style="text-align: right;">
+                    <a href="https://informaticaMarceMartinez.github.io" style="text-decoration: none; color: black;">
+                    <button style="padding: 10px 15px; color: black; font-size: 0.9em; border: none; border-radius: 5px; cursor: pointer; display: inline-block;">
+                         <strong>Volver ^</strong>
+                    </button>
+                    </a>
+               </div>
+          </section>
+
 
         `;
     } else if (profileType === 'estudios') {
         content = `
-        <section>
-  <h2>Certificaciones Internacionales</h2>
-  <p>A lo largo de mi carrera, he obtenido diferentes certificaciones que respaldan mi experiencia y conocimientos técnicos. Entre ellas se destacan:</p><br>
-  <ul>
-    <li><strong>VMware Technical Professional</strong> - VMware</li>
-    <li><strong>IBM Certified Technical Specialist</strong> - Midrange Storage Support</li>
-    <li><strong>Fortinet Network Security Administrator</strong> - FCNSA</li>
-    <li><strong>Exinda Certified Network Administrator</strong> - ECNA</li>
-    <li><strong>Lenovo Certified Data Center Professional</strong></li>
-    <li><strong>IBM Certified Technical Specialist</strong> - Systems X86</li>
-    <li><strong>IBM Certified Technical Specialist</strong> - Power Systems</li>
-  </ul><br><br>
-</section>
-<hr style="border: 1px solid #000; width: 90%; margin: 10px auto;"><br>
-        <section>
-  <h2>Formación Académica Formal</h2>
-
-  <h3>Instituto PauCasals de Barcelona</h3>
-  <p>Formación Nivel 3: Desarrollo de Aplicaciones con Tecnologías WEB<br>
-  Título obtenido: Desarrollo de Aplicaciones con Tecnologías WEB</p><br>
-
-  <h3>Universitat Autònoma de Barcelona</h3>
-  <p>Carrera: Análisis de datos masivos empresariales<br>
-  Certificado final obtenido: Big Data, el impacto de los datos masivos</p><br>
-
-  <h3>L’Escola de Formació – Dolors Paul</h3>
-  <p>Carrera: Idioma Catalán - Nivel Básico<br>
-  Certificado final obtenido: Idioma Catalán Nivel Básico</p><br>
-
-  <h3>Universidad ORT Uruguay</h3>
-  <p>Carrera: Técnico en Sistemas Operativos y Redes Informáticas<br>
-  Título final obtenido: Administrador de Servidores Linux</p><br>
-
-  <p>Carrera: Analista en Tecnologías de la Información<br>
-  Título intermedio obtenido: Programador Visual Orientado a Objetos<br>
-  Título final obtenido: Analista Programador</p><br>
-
-  <h3>Instituto Alianza EE.UU</h3>
-  <p>Carrera: Idioma Inglés<br>
-  Certificado final obtenido: Inglés Nivel Medio e Inglés Técnico</p><br>
-</section>
-<hr style="border: 1px solid #000; width: 90%; margin: 10px auto;"><br>
-
-<section>
-  <h2>Experiencia Laboral</h2>
-  
-  <h3>Técnico Senior en Soluciones Informáticas</h3>
-  <p><strong>Infotech – Gold Partner IBM</strong> - Montevideo, Uruguay // <strong>marzo 2011 – agosto 2020</strong></p>
-  <ul>
-    <li>Realización de relevamientos en clientes para entender sus necesidades y problemas.</li>
-    <li>Dimensionamiento y configuración de soluciones informáticas.</li>
-    <li>Despliegue e implementación de infraestructuras IT.</li>
-    <li>Coordinación de servicios post-venta y soporte técnico de primer y segundo nivel.</li>
-    <li>Administración y actualización de sistemas Linux, VMware y Windows.</li>
-    <li>Manejo de hardware avanzado (servidores, storages, networking).</li>
-    <li>Soporte a preventa y product management en visitas a clientes y partners.</li>
-  </ul><br>
-
-  <h3>Analista Programador y Consultor IT</h3>
-  <p><strong>Agencia del Banco de Seguros</strong> – Las Piedras, Uruguay // <strong>setiembre 2000 – agosto 2010</strong></p>
-  <ul>
-    <li>Programación en lenguajes como C#, Visual Basic, .Net, PHP, y Javascript.</li>
-    <li>Gestión de bases de datos (Informix, Oracle, MS SQL, MySQL, PostgreSQL).</li>
-    <li>Desarrollo de scripts en bash, sh, power shell y comandos Batch.</li>
-    <li>Diseño y ejecución de proyectos de software y hardware en empresas públicas y privadas.</li>
-    <li>QA de aplicaciones y sistemas CRM.</li>
-  </ul><br>
-</section>
-<section style="text-align: center; margin-top: 15px;">
-                   <a href="/CV_MarceloMartinez_638044140.pdf" download="CV_MarceloMartinez" style="text-decoration: none; color: black;">
-                  <button style="padding: 15px 20px; background-color: #4CAF50; color: black; font-size: 1.3em; border: none; border-radius: 5px; cursor: pointer;"><strong>Descarga Mi CV en PDF</strong></button></a>
-          </section>
+        
           
         `;
     }

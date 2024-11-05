@@ -122,7 +122,7 @@ button:hover {
      padding-left: 40px; /* Espaciado interno */
      border: 2px solid #e67e22; /* Borde para la sección de información */
      border-radius: 8px; /* Bordes redondeados */
-     display: none; /* Oculta inicialmente */
+     /* display: none; /* Oculta inicialmente */
 
      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8), 0 2px 5px rgba(128, 128, 128, 0.5); /* Sombra gris y negra */ 
      background-color: rgba(211, 211, 211, 0.8); /* Blanco con 80% de opacidad */   
